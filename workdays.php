@@ -11,14 +11,15 @@
     $holiday_api = new \HolidayAPI\Client(['key' => $api_key]);
 
     try {
-        $holidays_country = $holiday_api->holidays([
+        $holidays_workdays = $holiday_api->workdays([
             "country" => "DK",
             "year" => 2022,
-            "public" => true
+            "start" => "2022-01-01",
+            "end" => "2022-01-30"
         ]);
 
         echo "<pre>";
-            var_dump($holidays_country);
+            var_dump($holidays_workdays);
         echo "</pre>";
     } catch (Exception $e) {
         echo "<pre>";

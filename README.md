@@ -6,6 +6,7 @@
         - Dependencies
             * https://github.com/holidayapi/holidayapi-php
     - Holiday API, API Key
+    - Update $root_directory to definite path
 
 ##### Composer install depenendies
 ```$ composer require vlucas/phpdotenv```

@@ -11,3 +11,12 @@
 ```$ composer require vlucas/phpdotenv```
 
 ```$ composer require holidayapi/holidayapi-php```
+
+##### .ENV template
+```
+API_KEY=""
+HOSTNAME="HOST"
+USERNAME="USER"
+PASSWORD="PASS"
+DATABASE="DB_NAME"
+```

@@ -8,4 +8,6 @@
     - Holiday API, API Key
 
 ##### Composer install depenendies
+```$ composer require vlucas/phpdotenv```
+
 ```$ composer require holidayapi/holidayapi-php```
